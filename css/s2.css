@@ -1,0 +1,145 @@
+.firstcont{
+  background-image: url("img/wallpaperflare.com_wallpaper.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.search{
+  background-color: #fff;
+  width: 70%;
+  height: 40px;
+  margin-left: 15%;
+  margin-top: 5%;
+  display: inline-block;
+}
+
+.search img{
+  float: left;
+  margin-left: 10px;
+}
+
+.search a{
+  float: right;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 10px;
+  color: #FFD3B6;
+  text-decoration: none;
+}
+
+.search a:hover{
+  color: #DCA47C;
+}
+
+.details{
+  width: 300px;
+  height: 200px; /* Add px unit */
+  /* background-color: #fff; */
+  margin-top: 25%;
+  margin-left: 40%;
+}
+
+.details h1{
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.details p{
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tem{
+  width: 200px;
+  height: 40px;
+  background-color: #DCA47C;
+  margin-left: 17%;
+}
+.tem p{
+  line-height: 40px;
+}
+
+.details hr{
+  color: #fff;
+}
+.circles{
+  margin-top: 5%;
+  margin-left: 48%;
+}
+.one{
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+  background-color: #df8c50;
+  margin-top: 2%;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.endContaner{
+  margin-top: 8%;
+  width: 70%;
+  margin-left: 15%;
+
+}
+
+.textUpperColor{
+  margin-top: 5%;
+  
+}
+.textUpperColor h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+.textUpperColor p{
+  text-align: center;
+  text-transform: uppercase;
+}
+.anyColor{
+  width: 215px;
+  height: 200px;
+  background-color: #DCA47C;
+  display: inline-block;
+  margin-left: 25px;
+}
+.anyColor1{
+  width: 215px;
+  height: 200px;
+  background-color: #201d1b;
+  display: inline-block;
+  margin-left: 25px;
+}
+.anyColor2{
+  width: 215px;
+  height: 200px;
+  background-color: #874f27;
+  display: inline-block;
+  margin-left: 25px;
+}
+.anyColor3{
+  width: 215px;
+  height: 200px;
+  background-color: #4d280f;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.textUpperPhoto{
+  margin-top: 5%;
+}
+.textUpperPhoto h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+.textUpperPhoto p{
+  text-align: center;
+  text-transform: uppercase;
+}
+.photo img {
+  margin-left: 20px;
+  margin-top: 15px;
+}

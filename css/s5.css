@@ -1,0 +1,20 @@
+.back {
+  color:#088395 ;
+  background-color: #071952;
+  height: 70vh;
+}
+.back a {
+  color: #088395;
+  float: right;
+  margin-top: 20px ;
+}
+.inline {
+  float: left;
+}
+nav{
+  background-color: red;
+}
+
+/* .cleanfix::after{
+  clear: both;
+} */
