@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading Example</title>
+    <script>
+        function displayHeadings() {
+            // Prompt the user for a message
+            var message = prompt("Enter a message:");
+
+            // Loop through heading levels from 1 to 6
+            for (var i = 1; i <= 6; i++) {
+                // Create heading tags dynamically
+                document.writeln("<h" + i + ">" + message + "</h" + i + ">");
+            }
+        }
+    </script>
+</head>
+<body onload="displayHeadings()">
+</body>
+</html>

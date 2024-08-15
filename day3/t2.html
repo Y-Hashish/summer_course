@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Values</title>
+    <script>
+        function sumValues() {
+            let sum = 0;
+            do{
+                let userInput = prompt("Enter a number (0 to stop):");
+                let number = parseFloat(userInput);
+
+                if (isNaN(number)) {
+                    alert("Please enter a valid numeric value.");
+                    continue;
+                }
+
+                if (number === 0 || sum + number > 100) {
+                    break;
+                }
+
+                sum += number;
+            }while(true)
+
+            alert("The total sum of the entered values is: " + sum);
+        }
+    </script>
+</head>
+<body onload="sumValues()">
+</body>
+</html>

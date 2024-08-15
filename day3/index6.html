@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script >
+    var flag = 0;
+    var a =prompt("U need it case sensitive or not ? \n anwer with 'yes' or 'no'");
+    var b = prompt("Enter number to detrmine whether it is plandrom or not ");
+    if (a == "yes")
+    {
+      var l = b.length ;
+
+      
+      for (var i = 0 ; i < l/2 ;i++)
+      {
+        if (b[i] != b[l-1 -i ])
+          {
+            flag =1 ; 
+            break ;
+          }
+        else
+          {
+            flag=0 ;
+          }
+      }
+    }
+    else {
+      b =b.toLocaleUpperCase();
+      var l = b.length ;
+
+      
+      for (var i = 0 ; i < l/2 ;i++)
+      {
+        if (b[i] != b[l-1 -i ])
+          {
+            flag =1 ; 
+            break ;
+          }
+        else
+          {
+            flag=0 ;
+          }
+      }
+    }
+    if (flag)
+      console.log("Not Plandrom ");
+    else
+      console.log("plandrom");
+
+
+  </script>
+</body>
+</html>

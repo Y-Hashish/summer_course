@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+      var arr = [];
+      for (var i = 0; i < 5; i++) {
+        var input = prompt(` Enter the value number ${i+1} : `);
+        arr[i] = arr.push(input);
+      }
+      arr.sort() ; 
+      console.log(arr);
+      console.log(arr[1] +"," + arr[arr.length-2]);
+  </script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // var string = prompt("Enetr the string :")
+      function toConvertToUpperCase(text) {
+        myArray = text.split(" ");
+        x = myArray.length;
+
+        console.log(x);
+
+        // console.log(myArray);
+        for (i = 0; i < x; i++) {
+          console.log(
+            myArray[i].charAt(0).toUpperCase().concat(myArray[i].slice(1))
+          );
+        }
+      }
+      text = "Enter Your massage";
+      toConvertToUpperCase(text);
+    </script>
+  </body>
+</html> -->

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var arr = [1];
+      for (var i = 0; i < 5; i++) {
+        var input = prompt(` Enter the value number ${i} : `);
+        arr[i] = arr.push(input);
+      }
+      
+      document.writeln(`
+    <h1> sorting </h1>
+    <hr> 
+    <h4> u've entered the values of ${arr}
+    `);
+      arr.sort((a, b) => a - b);
+      document.writeln(`
+      <h4> ur values after being sorted asc ${arr}
+        `);
+        arr.sort((a, b) => b - a);
+      document.writeln(`
+    <h4> ur values after being sorted desc ${arr}
+    `);
+    </script>
+  </body>
+</html>
