@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  font-family: Outfit;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 10px ;
+}
+
+body{
+  /* background-color: #374151; */
+  background-image: url("image/wallpaperflare.com_wallpaper.jpg");
+  background-attachment: fixed;
+}
+
+
+.main {
+  height: inherit;
+  background-color:#f9fafb;
+  /* padding: 20px; */
+  margin: 50px;
+  border-radius: 10px ;
+}
+.bg {
+  padding: 20px;
+
+  height: 450px;
+  background-size: cover;
+  height:100vh;
+  background-image: url("image/wallpaperflare.com_wallpaper (1).jpg");
+  border-radius: 10px ;
+
+}
+
+.heading , .pragraph3 {
+  text-align: center;
+  
+}
+
+.pragraph {
+  padding: 20px;
+
+}
+
+
+.pragraph2 {
+  padding: 20px;
+  
+  text-align: center;
+  background-color: #6b7280;
+}
+footer {
+  text-align: center;
+  color: #f8fafc;
+  font-size: 50px;
+}
+footer p {
+  font-size: 26px ;
+  color: #6b7280;
+}
+
+.hed {
+  text-align: center;
+  color: #f9fafb;
+}
+
+.black {
+  background-color: black;
+}
+.nav2 a {
+  color: #f9fafb;
+  margin: 0px 10px 
+}
+
+.nav2 {
+  margin-top: 20px;
+
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  background-color: #f8fafc31;
+  padding: 0px 10px ;
+
+}
+
+.flex img {
+  width: 250px ;
+  height: 250px ;
+}
+.f1 {
+  width: 450px ;
+  height: 450px ;
+  padding: 50px ;
+  margin: 25px auto;
+  text-align: center;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  
+}
