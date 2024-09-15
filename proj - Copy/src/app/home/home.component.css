@@ -1,0 +1,26 @@
+.carousel-inner{
+  border-radius: 10px ;
+  width: 80%;
+  margin: 50px auto;
+}
+img {
+  background-size: cover;
+  height: 600px ;
+  background-size: cover;
+  
+}
+
+.p {
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px ;
+  color: #0f172a;
+  p{
+    font-size: 20px ;
+  }
+
+} 

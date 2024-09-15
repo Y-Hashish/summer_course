@@ -1,0 +1,46 @@
+.active{
+  transform: scale(1.1);
+  border-bottom: 2px solid #fff;
+  transition:  0.5s ease;
+}
+
+nav {
+  background: linear-gradient(to right ,#020617,#64748b);
+  
+}
+a{
+  color: #fff;
+}
+
+.container-fluid {
+width: 60%;
+}
+
+.collapse {
+  margin-left: 30%;
+}
+
+img {
+  width: 50px ;
+  border-radius: 50%;
+  margin: 5px ;
+  margin-left: 50px ;
+}
+
+label {
+  margin: 5px ;
+  &:hover {
+    transform: scale(1.1);
+    color: grey
+  };
+}
+i {
+  font-size: 25px ;
+  margin: 5px;
+  color: #fff;
+  &:hover {
+    /* transform: scale(1.1); */
+    color: black
+  };
+
+}

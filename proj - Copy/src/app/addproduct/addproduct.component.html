@@ -1,0 +1,42 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <h2>Add New Product</h2>
+  <!-- <div>
+    <label>Title: <input ></label>
+    <label>Price: <input ></label>
+    <label>Category: <input ></label>
+    <label>Description: <input></label>
+    <label>Image: <input ></label>
+  </div> -->
+  <div class="w-50">
+
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">Title</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="please enter the title" #title>
+  </div>
+  <div class="mb-3">
+    <label for="formGroupExampleInput2" class="form-label">Price $</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="please enter the Price" #price>
+  </div>
+  <div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Category</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="please enter the category"#category>
+  </div>
+  <div class="mb-3">
+    <label for="formGroupExampleInput2" class="form-label">Description</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="please enter the title description"  #description>
+  </div>
+  <div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Image path</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="please enter the iamge-path" #image>
+  </div>
+  <button  class="btn btn-primary"(click)="addProduct({
+    id: products.length ? products[products.length - 1].id + 1 : 1, 
+    title: title.value, 
+    price: price.value, 
+    category: category.value, 
+    description: description.value, 
+    image: image.value
+  })">Add Product</button>
+</div>
+</div>

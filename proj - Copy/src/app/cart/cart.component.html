@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">sample</th>
+        <th scope="col">title</th>
+        <th scope="col">price</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (item of cart; track $index) {
+        <tr>
+          <th><img src="{{item.image}}" alt=""></th>
+          <td> {{item.title}} </td>
+          <td> {{item.price}} </td>
+          <td>
+             <button class="btn btn-danger" (click)="removeCartItem(item.id)">remove</button> 
+             <button class="btn btn-success" routerLink='/details/{{item.id}}' >show</button> 
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
